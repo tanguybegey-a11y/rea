@@ -603,19 +603,48 @@ cd rea-work</code></pre>
             </details>
             <details class="evidence-details" id="client-opencode">
               <summary>OpenCode · choose an AI model</summary>
+              <p>Install using one of these commands:</p>
               <div class="code-block">
                 <div class="code-header">
-                  <span translate="no">Terminal</span
+                  <span translate="no">macOS / Linux</span
                   ><button
                     class="copy-button"
                     type="button"
-                    data-copy="install-opencode"
+                    data-copy="install-opencode-unix"
                     aria-label="Copy command"
                   >
                     Copy
                   </button>
                 </div>
-                <pre><code id="install-opencode">npm install --global opencode-ai</code></pre>
+                <pre><code id="install-opencode-unix">curl -fsSL https://opencode.ai/v2/install | bash</code></pre>
+              </div>
+              <div class="code-block">
+                <div class="code-header">
+                  <span translate="no">npm</span
+                  ><button
+                    class="copy-button"
+                    type="button"
+                    data-copy="install-opencode-npm"
+                    aria-label="Copy command"
+                  >
+                    Copy
+                  </button>
+                </div>
+                <pre><code id="install-opencode-npm">npm install --global @opencode/cli@latest</code></pre>
+              </div>
+              <div class="code-block">
+                <div class="code-header">
+                  <span translate="no">Homebrew</span
+                  ><button
+                    class="copy-button"
+                    type="button"
+                    data-copy="install-opencode-brew"
+                    aria-label="Copy command"
+                  >
+                    Copy
+                  </button>
+                </div>
+                <pre><code id="install-opencode-brew">brew install anomalyco/tap/opencode-v2</code></pre>
               </div>
               <p>
                 Run <code>opencode</code> in your working folder. Use
@@ -624,7 +653,7 @@ cd rea-work</code></pre>
               </p>
               <p>
                 <a href="https://opencode.ai/docs/"
-                  >OpenCode installation and model setup</a
+                  >Other OpenCode installers and model setup</a
                 >
               </p>
             </details>
